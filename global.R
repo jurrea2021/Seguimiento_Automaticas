@@ -1,3 +1,11 @@
+packs = c("shiny","DT","dplyr","shinydashboard")
+install.packages(setdiff(packs, rownames(installed.packages()))) 
+
+library(shiny)
+library(DT)
+library(dplyr)
+library(shinydashboard)
+
 
 
 ruta = "data/"
